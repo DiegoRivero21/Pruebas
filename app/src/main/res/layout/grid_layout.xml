@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 2"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 3"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 4"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 5"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 6"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 7"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 8"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celda 9"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@color/colorAccent"
+        android:padding="10dp"/>
+
+</GridLayout>

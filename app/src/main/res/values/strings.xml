@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Pruebas</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hora1">12:00</string>
+    <string name="dia1">26 de Julio, Viernes, Bógota.</string>
+    <string name="hora2">México D.F ------------------- 23:00</string>
+    <string name="hora3">Santiago ----------------------- 23:00</string>
+    <string name="hora4">Montevideo ------------------- 23:00</string>
+
+    <string name="codigo">Codigo</string>
+    <string name="hint_codigo">0000</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="hint_nombre">PC portatil</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="hint_descripcion">Intel I5 - RAM 6GB - 1TB</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="Peso">Peso (Kgr)</string>
+
+    <string name="bienvenido">Bienvenidos</string>
+    <string name="tutorcafe">Tutor Cafe</string>
+    <string name="sesion1">1. Sesion 1.</string>
+    <string name="sesion2">2. Sesion 2.</string>
+    <string name="sesion3">3. Sesion 3.</string>
+    <string name="horas1">10:00 am.</string>
+    <string name="horas2">4:00 pm.</string>
+    <string name="horas3">7:00 pm.</string>
+
+    <string name="producto">Producto</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="unidad">Valor Unidad</string>
+    <string name="auriculares">Auriculares</string>
+    <string name="celular">Celular</string>
+    <string name="cargador">Cargador</string>
+    <string name="protector">Protector</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="impuestos">Impuestos</string>
+    <string name="descuentos">Descuentos</string>
+    <string name="total">Total</string>
+    <string name="pagar">Pagar</string>
+
+    <string name="salir">Salir</string>
+    <string name="contactanos">Contáctanos</string>
+
+    <string name="email">Email</string>
+    <string name="contrasena">Contraseña</string>
+
+    <string-array name="horario_de_clases">
+        <item>Matematicas</item>
+        <item>Ciencias naturales</item>
+        <item>Ciencias sociales</item>
+        <item>Lengua castellana</item>
+        <item>Fisica</item>
+        <item>Quimica</item>
+    </string-array>
+
+    <string-array name="dias_semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
+    </string-array>
+
+    <string name="reproductor">Reproductor</string>
+    <string name="listViewAlarma">Alarma</string>
+
+    <string-array name="alarmas">
+        <item>6:00 pm</item>
+        <item>5:00 am</item>
+        <item>5:30 am</item>
+        <item>12:30 pm</item>
+    </string-array>
+
+    <!--  Example: Creando clase adapter para un GridView  -->
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+
+    <array name="zodiaco">
+        <item>@drawable/capricornio</item>
+        <item>@drawable/acuario</item>
+        <item>@drawable/picis</item>
+        <item>@drawable/aries</item>
+        <item>@drawable/tauro</item>
+        <item>@drawable/geminis</item>
+        <item>@drawable/cancer</item>
+        <item>@drawable/leo</item>
+        <item>@drawable/virgo</item>
+        <item>@drawable/libra</item>
+        <item>@drawable/scorpio</item>
+        <item>@drawable/sagitario</item>
+    </array>
+
+    <!--  Example: Adapters - Spinner y GridView  -->
+    <string name="gridView">GridView</string>
+    <string name="spinner">Spinner</string>
+    <string name="main_title">Arquitecturas</string>
+
+    <string-array name="titulos">
+        <item>China</item>
+        <item>Griega</item>
+        <item>Gothic</item>
+        <item>India</item>
+        <item>Japonesa</item>
+    </string-array>
+
+    <string-array name="subtitulos">
+        <item>Templo Fuzhou</item>
+        <item>Templo Magna</item>
+        <item>Catedral Ulm</item>
+        <item>Taj Mahal</item>
+        <item>Templo Naria Zen</item>
+    </string-array>
+
+    <array name="imagenes">
+        <item>@drawable/china</item>
+        <item>@drawable/griega</item>
+        <item>@drawable/gothic</item>
+        <item>@drawable/india</item>
+        <item>@drawable/japonesa</item>
+    </array>
+
+    <!--  Example: widget  -->
+    <string name="texto_widget">Mi primer widget</string>
+
+    <!--  Widget configuration  -->
+    <string name="texto_label">Widget con imagen</string>
+
+    <!--  Widget Ejercicio 1  -->
+    <string name="widget_label">Widget Foto Familiar</string>
+    <string name="texto_widget_familia">Mi Familia</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="texto_widget_simbol">Desde widget</string>
+
+    <string name="my_info_text">ver más información</string>
+
+    <string name="texto1">PAR - FRA</string>
+    <string name="texto2">Tiempo de vuelo: 10 hrs</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmento_1">Fragmento 1</string>
+    <string name="fragmento_2">Fragmento 2</string>
+    <string name="fragmento_3">Fragmento 3</string>
+    <string name="fragmento_4">Fragmento 4</string>
+
+    <string name="fragmento2_1">Categorías</string>
+    <string name="fragmento2_2">Destacadas</string>
+    <string name="fragmento2_3">Relevantes</string>
+    <string name="fragmento2_4">Favoritas</string>
+</resources>

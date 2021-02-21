@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tools:context="com.example.pruebas.MainActivity" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/material_grey_300">
+
+<!--  Ejercicio 1 fragmentos estaticos  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="com.example.pruebas.Fragmento1"-->
+<!--        android:id="@+id/fragment"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        tools:layout="@layout/fragmento1" />-->
+
+<!--  Ejercicio 2 fragmentos estaticos  -->
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.pruebas.Categorias2"
+        android:id="@+id/fragment"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/categorias2" />
+
+</RelativeLayout>

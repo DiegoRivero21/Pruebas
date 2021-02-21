@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:name="com.example.pruebas.ListaDeVersiones"
+        android:id="@+id/fragment6"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginStart="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/lista_de_versiones" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:name="com.example.pruebas.LogoVersiones"
+        android:id="@+id/fragment7"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_alignTop="@+id/fragment6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout="@layout/logo_versiones" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:name="com.example.pruebas.DescripcionVersiones"
+        android:id="@+id/fragment8"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/fragment6"
+        android:layout_alignLeft="@+id/fragment6"
+        android:layout_alignStart="@+id/fragment6"
+        tools:layout="@layout/descripcion_versiones" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:name="com.example.pruebas.VersionesAndroid"
+        android:id="@+id/fragment9"
+        android:layout_alignBottom="@+id/fragment8"
+        android:layout_alignLeft="@+id/fragment7"
+        android:layout_alignStart="@+id/fragment7"
+        tools:layout="@layout/versiones_android" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorTexto">#727272</color>
+    <color name="colorFondo">#A8A2A2</color>
+    <color name="colorTextos">#616161</color>
+    <color name="colorFondos">#88EEEEEE</color>
+    <color name="fragmento1">#F6CECE</color>
+    <color name="fragmento2">#F5F6CE</color>
+    <color name="fragmento3">#CEF6D8</color>
+    <color name="fragmento4">#CEECF5</color>
+</resources>

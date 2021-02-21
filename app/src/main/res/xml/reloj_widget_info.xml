@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/layout_reloj_widget"
+    android:minHeight="110dp"
+    android:minWidth="110dp"
+    android:resizeMode="vertical"
+    android:widgetCategory="home_screen"
+    android:label="Widget con reloj"
+    android:previewImage="@drawable/reloj_widget_preview"></appwidget-provider>

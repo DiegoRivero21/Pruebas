@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="#181818"
+android:gravity="center_horizontal"
+tools:context="com.example.pruebas.MainActivity"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hora1"
+    android:textColor="@android:color/white"
+    android:textSize="72dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/dia1"
+    android:textColor="@android:color/white"
+    android:textSize="16dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="@string/hora2"
+    android:textColor="@android:color/white"
+    android:textSize="24dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="@string/hora3"
+    android:textColor="@android:color/white"
+    android:textSize="24dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:text="@string/hora4"
+    android:textColor="@android:color/white"
+    android:textSize="24dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#fff"
+    android:text="Primera Activity" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Siguiente"/>
+
+</LinearLayout> -->
+
+<!-- Spinner -->
+<!-- <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pruebas.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/opcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+</LinearLayout> -->
+
+<!-- GridView Adapter -->
+<!-- <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pruebas.MainActivity">
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:stretchMode="columnWidth">
+
+    </GridView>
+
+</RelativeLayout> -->
+
+<!-- Ejercicio Spinner y GridView -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pruebas.MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/botones"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/spinner"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/spinner"-->
+<!--            android:background="@color/colorAccent"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:onClick="navegarSpinner" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/grid"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/gridView"-->
+<!--            android:background="@color/colorAccent"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:onClick="navegarGrid" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/main_title"-->
+<!--        android:textSize="32sp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_above="@id/botones"-->
+<!--        android:layout_marginBottom="24dp"/>-->
+
+
+<!--  Notificaciones, Toast y SnackBar  -->
+<!--   <Button-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:onClick="notificar"-->
+<!--    android:text="Notificacion"/>-->
+
+<!--   <Button-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:layout_marginTop="60dp"-->
+<!--       android:onClick="metodo"-->
+<!--       android:text="Toast"/>-->
+
+<!--   <Button-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:layout_marginTop="120dp"-->
+<!--       android:onClick="snackbar"-->
+<!--       android:text="SnackBar"/>-->
+
+<!--  Ejemplo de un fragmento  -->
+<!--   <androidx.fragment.app.FragmentContainerView-->
+<!--       android:id="@+id/fragment"-->
+<!--       android:name="com.example.pruebas.Fragmento"-->
+<!--       android:layout_width="400dp"-->
+<!--       android:layout_height="400dp"-->
+<!--       android:layout_centerInParent="true"-->
+<!--       tools:layout="@layout/fragmento" />-->
+
+<!--  Fragmentos estaticos  -->
+
+<!-- Ejercicio 1 -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment3"-->
+<!--        android:name="com.example.pruebas.Categorias"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:layout="@layout/categorias" />-->
+
+<!--  Ejercicio 2  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment"-->
+<!--        android:name="com.example.pruebas.Compartir"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout="@layout/compartir" />-->
+
+<!-- Ejemplo 2 -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment"-->
+<!--        android:name="com.example.pruebas.ListaDeVersiones"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        tools:layout="@layout/lista_de_versiones"/>-->
+
+<!--  Ejercicio gestion de fragmentos  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment3"-->
+<!--        android:name="com.example.pruebas.Inicio"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        tools:layout="@layout/inicio" />-->
+
+
+<!--  Ejercicio Multiples pantallas  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment"-->
+<!--        android:name="com.example.pruebas.ListaDeVersiones"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        tools:layout="@layout/lista_de_versiones" />-->
+
+<!--  Ejemplo fragmento dinamico  -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Fragmento"
+        android:id="@+id/button"
+        android:onClick="mostrar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <FrameLayout
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>

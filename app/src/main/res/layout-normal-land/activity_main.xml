@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--  Ejemplo Versiones android  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment6"-->
+<!--        android:name="com.example.pruebas.ListaDeVersiones"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        tools:layout="@layout/lista_de_versiones" />-->
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fragment7"-->
+<!--        android:name="com.example.pruebas.DescripcionVersiones"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_toEndOf="@+id/fragment6"-->
+<!--        tools:layout="@layout/descripcion_versiones" />-->
+
+<!--  Ejemplo fragmentos multiplataforma  -->
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:name="com.example.pruebas.ListaDeVersiones"-->
+<!--        android:id="@+id/fragment5"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        tools:layout="@layout/lista_de_versiones" />-->
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="com.example.pruebas.DescripcionVersiones"-->
+<!--        android:id="@+id/fragment6"-->
+<!--        tools:layout="@layout/descripcion_versiones"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_toEndOf="@+id/fragment5"-->
+<!--        android:layout_alignParentEnd="true" />-->
+
+<!--  Ejercicio multiples pantallas  -->
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.pruebas.ListaDeVersiones"
+        android:id="@+id/fragment5"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/lista_de_versiones" />
+
+</RelativeLayout>
